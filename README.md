@@ -68,6 +68,8 @@ Future versions may include:
 - Better opening analysis
 - Additional statistics and progress insights
 
+> 🌐 **Interface language:** GameCoach 1.0 currently uses a Russian-language interface.  
+> English interface support is planned for a future release.
 ---
 
 ### ANALYZE • LEARN • IMPROVE
