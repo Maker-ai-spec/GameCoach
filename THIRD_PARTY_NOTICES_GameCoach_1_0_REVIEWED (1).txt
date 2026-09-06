@@ -1,0 +1,105 @@
+GAMECOACH 1.0 — THIRD-PARTY NOTICES
+
+This file summarizes major third-party software used by GameCoach 1.0.
+It is not a substitute for the complete license texts shipped with the application.
+
+1. Stockfish 19
+----------------
+GameCoach distributes an unmodified Stockfish 19 executable as a separate chess-engine component.
+
+Project:
+https://stockfishchess.org/
+
+Stockfish 19 downloads and source:
+https://stockfishchess.org/download/
+
+License:
+GNU General Public License version 3 (GPLv3).
+
+When redistributing Stockfish, the corresponding source code (or a valid pointer to
+the exact corresponding source) and the applicable GPL license terms must be made
+available to recipients.
+
+2. python-chess
+---------------
+GameCoach uses the python-chess library for chess rules, PGN processing, board state,
+and UCI engine communication.
+
+Project:
+https://github.com/niklasf/python-chess
+
+License:
+GNU General Public License version 3 or any later version (GPL-3.0-or-later).
+
+IMPORTANT:
+Because GameCoach imports and bundles python-chess, GameCoach's own distribution
+license and source-code availability must be reviewed for GPL compatibility.
+The conservative release approach is to publish GameCoach's corresponding source
+under GPLv3-compatible terms together with the binary release.
+
+3. CustomTkinter
+----------------
+GameCoach uses CustomTkinter for its graphical user interface.
+
+Project:
+https://github.com/TomSchimansky/CustomTkinter
+
+License:
+MIT License.
+
+Copyright (c) 2023 Tom Schimansky.
+
+The complete CustomTkinter MIT license text should be included with the distributed
+application.
+
+4. Pillow
+---------
+GameCoach uses Pillow (PIL Fork) for image handling.
+
+Project:
+https://python-pillow.github.io/
+https://github.com/python-pillow/Pillow
+
+License:
+MIT-CMU License.
+
+Copyright notices and the complete Pillow license text should be included with the
+distributed application.
+
+5. Python
+---------
+GameCoach is built using Python and may contain the Python runtime when packaged as
+a standalone Windows executable.
+
+Project:
+https://www.python.org/
+
+License:
+Python Software Foundation License Version 2, together with applicable historical
+license notices for the Python distribution.
+
+The applicable Python license/copyright notices should be retained with the
+redistributed runtime.
+
+6. PyInstaller
+--------------
+GameCoach is packaged as a Windows executable using PyInstaller.
+
+Project:
+https://pyinstaller.org/
+
+PyInstaller uses a GPL-based license with an exception that permits executables
+created from application source code to be distributed under the application's
+license, subject to the licenses of the bundled dependencies.
+
+7. Additional bundled dependencies
+----------------------------------
+The final Windows build may contain additional direct or transitive packages,
+including packages brought in by CustomTkinter, Pillow, Python, or the packaging
+process. Before public release, generate a dependency inventory from the exact
+build environment and retain the applicable license notices for every bundled
+component.
+
+GameCoach and third-party product names are used only to identify the respective
+software components. Third-party copyrights and trademarks remain with their
+respective owners.
